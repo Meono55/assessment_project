@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+  }
+
+#main {
+    display: flex;
+    flex: 1;
+}
+
+.photoImage {
+    flex: 1;
+}
+
+img {
+    width: 100%;
+}
+.topLabel, footer {
+    background: yellowgreen;
+    height: calc(100% - 20vh);
+  }
+  .topLabel, footer{
+    padding: 1em;
+  }
+
+.topLabel {
+    width: 30%;
+ }
+
+.testContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.titleworks {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.buttonHover {
+    position: absolute;
+    transition-duration: 0.9s;
+}
+
+.buttonHover:hover {
+    background-color:#002ead;
+}
